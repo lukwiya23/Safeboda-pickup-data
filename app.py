@@ -24,3 +24,6 @@ data_load_state.text('Done!..using @st.cache')
 
 if st.checkbox('show raw data'):
     st.subheader('Raw Data')    
+    st.write(data)
+
+st.subheader('Number of pickups by the hour')
